@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <form name="form1">
+            <input type="text" id="value" class="input" name="ans">
+            <input type="button" class="btn op" id="sum" value="+" onclick="form1.ans.value+='+'">
+            <input type="button" class="btn op" id="sub" value="-" onclick="form1.ans.value+='-'">
+            <input type="button" class="btn op" id="mul" value="*" onclick="form1.ans.value+='*'">
+            <input type="button" class="btn op" id="divi" value="/" onclick="form1.ans.value+='/'">
+            <input type="button" class="btn op" id="clr" value="C" onclick="form1.ans.value+=''">
+            <input type="button" class="btn" id="0" value="0" onclick="form1.ans.value+='0'">
+            <input type="button" class="btn" id="1" value="1" onclick="form1.ans.value+='1'">
+            <input type="button" class="btn" id="2" value="2" onclick="form1.ans.value+='2'">
+            <input type="button" class="btn" id="3" value="3" onclick="form1.ans.value+='3'">
+            <input type="button" class="btn" id="4" value="4" onclick="form1.ans.value+='4'">
+            <input type="button" class="btn" id="5" value="5" onclick="form1.ans.value+='5'">
+            <input type="button" class="btn" id="6" value="6" onclick="form1.ans.value+='6'">
+            <input type="button" class="btn" id="7" value="7" onclick="form1.ans.value+='7'">
+            <input type="button" class="btn" id="8" value="8" onclick="form1.ans.value+='8'">
+            <input type="button" class="btn" value="9" onclick="form1.ans.value+='9'">
+            <input type="button" class="btn op" id="equal" value="=" onclick="form1.ans.value = eval(form1.ans.value)">
+        </form>
+    </div>
+</body>
+<!-- <script src="index.js"></script> -->
+
+</html>
