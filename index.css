@@ -37,3 +37,9 @@
     background-color: palegreen;
     cursor: pointer;
 }
+
+@media (max-width: 850px) {
+    .container{
+        margin-top: 330px;
+    }
+}
